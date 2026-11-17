@@ -1,0 +1,34 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/linkedin", "destination": "https://www.linkedin.com/in/ashar-f-415249131/", "permanent": false },
+    { "source": "/li", "destination": "https://www.linkedin.com/in/ashar-f-415249131/", "permanent": false },
+
+    { "source": "/github", "destination": "https://github.com/farooqashar", "permanent": false },
+    { "source": "/gh", "destination": "https://github.com/farooqashar", "permanent": false },
+
+    { "source": "/x", "destination": "https://twitter.com/ashar7041", "permanent": false },
+    { "source": "/twitter", "destination": "https://twitter.com/ashar7041", "permanent": false },
+
+    { "source": "/instagram", "destination": "https://www.instagram.com/ashar115/", "permanent": false },
+    { "source": "/ig", "destination": "https://www.instagram.com/ashar115/", "permanent": false },
+
+    { "source": "/facebook", "destination": "https://www.facebook.com/ashar.farooq.395", "permanent": false },
+    { "source": "/fb", "destination": "https://www.facebook.com/ashar.farooq.395", "permanent": false },
+
+    { "source": "/calendly", "destination": "https://calendly.com/asharfarooq/", "permanent": false },
+    { "source": "/meet", "destination": "https://calendly.com/asharfarooq/", "permanent": false },
+
+    { "source": "/resume", "destination": "https://ashar.vercel.app/Ashar_Farooq_Resume_2025_11_09.pdf", "permanent": false },
+
+    { "source": "/site", "destination": "https://ashar.vercel.app", "permanent": false },
+    { "source": "/ai", "destination": "https://ai.asharfarooq.xyz/", "permanent": false },
+    { "source": "/reading", "destination": "https://reading.asharfarooq.xyz/", "permanent": false },
+    { "source": "/tools", "destination": "https://tools.asharfarooq.xyz/", "permanent": false },
+
+    { "source": "/", "destination": "https://ashar.vercel.app", "permanent": false },
+    { "source": "/:path*", "destination": "https://ashar.vercel.app", "permanent": false }
+  ]
+}
